@@ -10,7 +10,7 @@ services:
   runner:
     image: "gaiaapp/runner"
     environment:
-      - "GAIA_URL=http://gaia:8080"
+      - "GAIA_URL=http://localhost:8080"
       - "GAIA_RUNNER_API_PASSWORD=123456"
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock"
