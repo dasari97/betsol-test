@@ -1,0 +1,35 @@
+2022-03-12 09:25:03.845  INFO 1 --- [           main] io.gaia_app.runner.Runner                : Starting Runner v2.3.1 using Java 17.0.2 on 1f481fbd83e6 with PID 1 (/opt/target/runner.jar s
+tarted by root in /opt/target)
+2022-03-12 09:25:03.848  INFO 1 --- [           main] io.gaia_app.runner.Runner                : No active profile set, falling back to default profiles: default
+2022-03-12 09:25:06.619  INFO 1 --- [           main] io.gaia_app.runner.Runner                : Started Runner in 3.495 seconds (JVM running for 4.462)
+2022-03-12 09:25:06.623  INFO 1 --- [   scheduling-1] io.gaia_app.runner.StepPoller            : Polling for pending steps
+2022-03-12 09:25:06.885 ERROR 1 --- [   scheduling-1] io.gaia_app.runner.StepPoller            : Unable to connect to gaia find jobs to run : I/O error on GET request for "http://localhost:8
+080/api/runner/steps/request": Connection refused; nested exception is java.net.ConnectException: Connection refused
+2022-03-12 09:25:11.886  INFO 1 --- [   scheduling-1] io.gaia_app.runner.StepPoller            : Polling for pending steps
+2022-03-12 09:25:11.888 ERROR 1 --- [   scheduling-1] io.gaia_app.runner.StepPoller            : Unable to connect to gaia find jobs to run : I/O error on GET request for "http://localhost:8
+080/api/runner/steps/request": Connection refused; nested exception is java.net.ConnectException: Connection refused
+2022-03-12 09:25:16.889  INFO 1 --- [   scheduling-1] io.gaia_app.runner.StepPoller            : Polling for pending steps
+2022-03-12 09:25:16.890 ERROR 1 --- [   scheduling-1] io.gaia_app.runner.StepPoller            : Unable to connect to gaia find jobs to run : I/O error on GET request for "http://localhost:8
+080/api/runner/steps/request": Connection refused; nested exception is java.net.ConnectException: Connection refused
+2022-03-12 09:25:21.890  INFO 1 --- [   scheduling-1] io.gaia_app.runner.StepPoller            : Polling for pending steps
+2022-03-12 09:25:21.892 ERROR 1 --- [   scheduling-1] io.gaia_app.runner.StepPoller            : Unable to connect to gaia find jobs to run : I/O error on GET request for "http://localhost:8
+080/api/runner/steps/request": Connection refused; nested exception is java.net.ConnectException: Connection refused
+2022-03-12 09:25:26.893  INFO 1 --- [   scheduling-1] io.gaia_app.runner.StepPoller            : Polling for pending steps
+2022-03-12 09:25:26.895 ERROR 1 --- [   scheduling-1] io.gaia_app.runner.StepPoller            : Unable to connect to gaia find jobs to run : I/O error on GET request for "http://localhost:8
+080/api/runner/steps/request": Connection refused; nested exception is java.net.ConnectException: Connection refused
+2022-03-12 09:25:31.896  INFO 1 --- [   scheduling-1] io.gaia_app.runner.StepPoller            : Polling for pending steps
+2022-03-12 09:25:31.897 ERROR 1 --- [   scheduling-1] io.gaia_app.runner.StepPoller            : Unable to connect to gaia find jobs to run : I/O error on GET request for "http://localhost:8
+080/api/runner/steps/request": Connection refused; nested exception is java.net.ConnectException: Connection refused
+2022-03-12 09:25:36.898  INFO 1 --- [   scheduling-1] io.gaia_app.runner.StepPoller            : Polling for pending steps
+2022-03-12 09:25:36.899 ERROR 1 --- [   scheduling-1] io.gaia_app.runner.StepPoller            : Unable to connect to gaia find jobs to run : I/O error on GET request for "http://localhost:8
+080/api/runner/steps/request": Connection refused; nested exception is java.net.ConnectException: Connection refused
+2022-03-12 09:25:41.900  INFO 1 --- [   scheduling-1] io.gaia_app.runner.StepPoller            : Polling for pending steps
+2022-03-12 09:25:41.901 ERROR 1 --- [   scheduling-1] io.gaia_app.runner.StepPoller            : Unable to connect to gaia find jobs to run : I/O error on GET request for "http://localhost:8
+080/api/runner/steps/request": Connection refused; nested exception is java.net.ConnectException: Connection refused
+2022-03-12 09:25:46.902  INFO 1 --- [   scheduling-1] io.gaia_app.runner.StepPoller            : Polling for pending steps
+2022-03-12 09:25:46.903 ERROR 1 --- [   scheduling-1] io.gaia_app.runner.StepPoller            : Unable to connect to gaia find jobs to run : I/O error on GET request for "http://localhost:8
+080/api/runner/steps/request": Connection refused; nested exception is java.net.ConnectException: Connection refused
+2022-03-12 09:25:51.904  INFO 1 --- [   scheduling-1] io.gaia_app.runner.StepPoller            : Polling for pending steps
+2022-03-12 09:25:51.905 ERROR 1 --- [   scheduling-1] io.gaia_app.runner.StepPoller            : Unable to connect to gaia find jobs to run : I/O error on GET request for "http://localhost:8
+080/api/runner/steps/request": Connection refused; nested exception is java.net.ConnectException: Connection refused
+[ec2-user@gaia ~]$ 
