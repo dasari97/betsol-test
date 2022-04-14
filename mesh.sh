@@ -17,9 +17,9 @@ status_check() {
 #Downloading asmcli command into the machine.
 
 print "\e[3;33\Downloading ASMCLI utility into the machine.\e[0m"
-curl https://storage.googleapis.com/csm-artifacts/asm/asmcli_1.13 > ~/asmcli && chmod +x ~/asmcli
+curl https://storage.googleapis.com/csm-artifacts/asm/asmcli_1.13 > ./asmcli && chmod +x ./asmcli
 status_check $?
 
 print "\e[3;33EEnabling Anthos service mesh for the project.\e[0m"
-~/asmcli install -p $project_name -l $region -n $cluster_name --fleet_id $fleet_id --managed --verbose --output_dir ~/$direcotry_name --enable-all --channel $release_channel
+./asmcli install -p $project_name -l $region -n $cluster_name --fleet_id $fleet_id --managed --verbose --output_dir ~/$direcotry_name --enable-all --channel $release_channel
 status_check $?
